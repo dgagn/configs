@@ -4,10 +4,10 @@
   "description": "",
   "main": "./bin/enode",
   "bin": "./bin/enode",
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Dany Gagnon",
+  "license": "MIT",
+  "repository": "https://github.com/dgagn/configs",
   "publishConfig": {
-    "registry": ""
+    "@dgagn:registry": "https://npm.pkg.github.com/dgagn"
   }
 }

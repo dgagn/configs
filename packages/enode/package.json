@@ -1,0 +1,13 @@
+{
+  "name": "enode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./bin/enode",
+  "bin": "./bin/enode",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "publishConfig": {
+    "registry": ""
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "name": "enode",
+  "name": "@dgagn/enode",
   "version": "1.0.0",
   "description": "",
   "main": "./bin/enode",
@@ -8,6 +8,6 @@
   "license": "MIT",
   "repository": "https://github.com/dgagn/configs",
   "publishConfig": {
-    "@dgagn:registry": "https://npm.pkg.github.com/dgagn"
+    "registry": "https://npm.pkg.github.com/dgagn"
   }
 }

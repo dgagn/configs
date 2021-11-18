@@ -1,10 +1,12 @@
+#!/usr/bin/env node
+
 import * as fs from 'fs';
 import * as path from 'path';
 import minimist from 'minimist'
 
 function getVersion() {
   return JSON.parse(
-    fs.readFileSync(path.resolve(__dirname, 'package.json'), 'utf-8')
+    fs.readFileSync(path.resolve(__dirname, '../package.json'), 'utf-8')
   ).version;
 }
 

@@ -1,7 +1,4 @@
 #!/bin/sh
 
-firstArg="$1"
-shift
-
-test -n "$firstArg" || { echo "enode - requires 1 argument" >&2; exit 1; }
-esbuild --bundle --platform=node "$firstArg" | node "$@"
+test -n "$1" || { echo "enode - requires 1 argument" >&2; exit 1; }
+esbuild --bundle --platform=node "$1" | node

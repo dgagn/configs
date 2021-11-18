@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "enode src/index.ts test"
+    "start": "enode src/index.ts",
+    "build": "esbuild --bundle --platform=node src/index.ts --outdir=dist"
   },
   "keywords": [],
   "author": "",
